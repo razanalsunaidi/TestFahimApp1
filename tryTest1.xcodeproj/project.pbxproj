@@ -14,6 +14,11 @@
 		662A23DC2D10440A006FD7B9 /* tryTest1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662A23DB2D10440A006FD7B9 /* tryTest1Tests.swift */; };
 		662A23E62D10440A006FD7B9 /* tryTest1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662A23E52D10440A006FD7B9 /* tryTest1UITests.swift */; };
 		662A23E82D10440A006FD7B9 /* tryTest1UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662A23E72D10440A006FD7B9 /* tryTest1UITestsLaunchTests.swift */; };
+		663C206F2D12EFA300672597 /* أهلا.mov in Resources */ = {isa = PBXBuildFile; fileRef = 663C206E2D12EFA300672597 /* أهلا.mov */; };
+		663C20712D12EFB500672597 /* كيف حالك.mov in Resources */ = {isa = PBXBuildFile; fileRef = 663C20702D12EFB500672597 /* كيف حالك.mov */; };
+		663C20732D12EFBA00672597 /* كم عمرك.mov in Resources */ = {isa = PBXBuildFile; fileRef = 663C20722D12EFBA00672597 /* كم عمرك.mov */; };
+		663C20752D12EFD000672597 /* ما اسمك.mov in Resources */ = {isa = PBXBuildFile; fileRef = 663C20742D12EFD000672597 /* ما اسمك.mov */; };
+		663C20772D12EFD600672597 /* كيف العائلة.mov in Resources */ = {isa = PBXBuildFile; fileRef = 663C20762D12EFD600672597 /* كيف العائلة.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,12 @@
 		662A23E12D10440A006FD7B9 /* tryTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		662A23E52D10440A006FD7B9 /* tryTest1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryTest1UITests.swift; sourceTree = "<group>"; };
 		662A23E72D10440A006FD7B9 /* tryTest1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryTest1UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		662A23F42D104B60006FD7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		663C206E2D12EFA300672597 /* أهلا.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "أهلا.mov"; sourceTree = "<group>"; };
+		663C20702D12EFB500672597 /* كيف حالك.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "كيف حالك.mov"; sourceTree = "<group>"; };
+		663C20722D12EFBA00672597 /* كم عمرك.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "كم عمرك.mov"; sourceTree = "<group>"; };
+		663C20742D12EFD000672597 /* ما اسمك.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "ما اسمك.mov"; sourceTree = "<group>"; };
+		663C20762D12EFD600672597 /* كيف العائلة.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "كيف العائلة.mov"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +105,12 @@
 		662A23C92D104409006FD7B9 /* tryTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				662A23F42D104B60006FD7B9 /* Info.plist */,
+				663C206E2D12EFA300672597 /* أهلا.mov */,
+				663C20702D12EFB500672597 /* كيف حالك.mov */,
+				663C20722D12EFBA00672597 /* كم عمرك.mov */,
+				663C20742D12EFD000672597 /* ما اسمك.mov */,
+				663C20762D12EFD600672597 /* كيف العائلة.mov */,
 				662A23CA2D104409006FD7B9 /* tryTest1App.swift */,
 				662A23CC2D104409006FD7B9 /* ContentView.swift */,
 				662A23CE2D10440A006FD7B9 /* Assets.xcassets */,
@@ -232,6 +249,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				662A23D22D10440A006FD7B9 /* Preview Assets.xcassets in Resources */,
+				663C20712D12EFB500672597 /* كيف حالك.mov in Resources */,
+				663C206F2D12EFA300672597 /* أهلا.mov in Resources */,
+				663C20772D12EFD600672597 /* كيف العائلة.mov in Resources */,
+				663C20752D12EFD000672597 /* ما اسمك.mov in Resources */,
+				663C20732D12EFBA00672597 /* كم عمرك.mov in Resources */,
 				662A23CF2D10440A006FD7B9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -422,8 +444,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tryTest1/Preview Content\"";
+				DEVELOPMENT_TEAM = BN2JAJ3WHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tryTest1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +474,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tryTest1/Preview Content\"";
+				DEVELOPMENT_TEAM = BN2JAJ3WHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = tryTest1/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -477,6 +503,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
@@ -496,6 +523,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
 				MARKETING_VERSION = 1.0;
