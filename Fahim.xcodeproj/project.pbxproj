@@ -19,6 +19,7 @@
 		663C20752D12EFD000672597 /* ما اسمك.mov in Resources */ = {isa = PBXBuildFile; fileRef = 663C20742D12EFD000672597 /* ما اسمك.mov */; };
 		663C20772D12EFD600672597 /* كيف العائلة.mov in Resources */ = {isa = PBXBuildFile; fileRef = 663C20762D12EFD600672597 /* كيف العائلة.mov */; };
 		B391B9082D13244A0093BBEC /* أهلا.mov in Resources */ = {isa = PBXBuildFile; fileRef = B391B9072D13244A0093BBEC /* أهلا.mov */; };
+		B391B9342D144E4F0093BBEC /* Fahim.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391B9332D144E4B0093BBEC /* Fahim.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		663C20742D12EFD000672597 /* ما اسمك.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "ما اسمك.mov"; sourceTree = "<group>"; };
 		663C20762D12EFD600672597 /* كيف العائلة.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "كيف العائلة.mov"; sourceTree = "<group>"; };
 		B391B9072D13244A0093BBEC /* أهلا.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "أهلا.mov"; sourceTree = "<group>"; };
+		B391B9332D144E4B0093BBEC /* Fahim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fahim.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		662A23C92D104409006FD7B9 /* tryTest1 */ = {
 			isa = PBXGroup;
 			children = (
+				B391B9332D144E4B0093BBEC /* Fahim.swift */,
 				662A23F42D104B60006FD7B9 /* Info.plist */,
 				663C20702D12EFB500672597 /* كيف حالك.mov */,
 				B391B9072D13244A0093BBEC /* أهلا.mov */,
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				662A23CD2D104409006FD7B9 /* ContentView.swift in Sources */,
+				B391B9342D144E4F0093BBEC /* Fahim.swift in Sources */,
 				662A23CB2D104409006FD7B9 /* tryTest1App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
