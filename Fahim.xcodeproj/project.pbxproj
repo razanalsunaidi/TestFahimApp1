@@ -39,14 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		662A23C72D104409006FD7B9 /* tryTest1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tryTest1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		662A23C72D104409006FD7B9 /* Fahim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fahim.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		662A23CA2D104409006FD7B9 /* tryTest1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryTest1App.swift; sourceTree = "<group>"; };
 		662A23CC2D104409006FD7B9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		662A23CE2D10440A006FD7B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		662A23D12D10440A006FD7B9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		662A23D72D10440A006FD7B9 /* tryTest1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryTest1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		662A23D72D10440A006FD7B9 /* FahimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FahimTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		662A23DB2D10440A006FD7B9 /* tryTest1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryTest1Tests.swift; sourceTree = "<group>"; };
-		662A23E12D10440A006FD7B9 /* tryTest1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryTest1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		662A23E12D10440A006FD7B9 /* FahimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FahimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		662A23E52D10440A006FD7B9 /* tryTest1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryTest1UITests.swift; sourceTree = "<group>"; };
 		662A23E72D10440A006FD7B9 /* tryTest1UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryTest1UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		662A23F42D104B60006FD7B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
@@ -95,9 +95,9 @@
 		662A23C82D104409006FD7B9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				662A23C72D104409006FD7B9 /* tryTest1.app */,
-				662A23D72D10440A006FD7B9 /* tryTest1Tests.xctest */,
-				662A23E12D10440A006FD7B9 /* tryTest1UITests.xctest */,
+				662A23C72D104409006FD7B9 /* Fahim.app */,
+				662A23D72D10440A006FD7B9 /* FahimTests.xctest */,
+				662A23E12D10440A006FD7B9 /* FahimUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,9 +147,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		662A23C62D104409006FD7B9 /* tryTest1 */ = {
+		662A23C62D104409006FD7B9 /* Fahim */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 662A23EB2D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "tryTest1" */;
+			buildConfigurationList = 662A23EB2D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "Fahim" */;
 			buildPhases = (
 				662A23C32D104409006FD7B9 /* Sources */,
 				662A23C42D104409006FD7B9 /* Frameworks */,
@@ -159,14 +159,14 @@
 			);
 			dependencies = (
 			);
-			name = tryTest1;
+			name = Fahim;
 			productName = tryTest1;
-			productReference = 662A23C72D104409006FD7B9 /* tryTest1.app */;
+			productReference = 662A23C72D104409006FD7B9 /* Fahim.app */;
 			productType = "com.apple.product-type.application";
 		};
-		662A23D62D10440A006FD7B9 /* tryTest1Tests */ = {
+		662A23D62D10440A006FD7B9 /* FahimTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 662A23EE2D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "tryTest1Tests" */;
+			buildConfigurationList = 662A23EE2D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "FahimTests" */;
 			buildPhases = (
 				662A23D32D10440A006FD7B9 /* Sources */,
 				662A23D42D10440A006FD7B9 /* Frameworks */,
@@ -177,14 +177,14 @@
 			dependencies = (
 				662A23D92D10440A006FD7B9 /* PBXTargetDependency */,
 			);
-			name = tryTest1Tests;
+			name = FahimTests;
 			productName = tryTest1Tests;
-			productReference = 662A23D72D10440A006FD7B9 /* tryTest1Tests.xctest */;
+			productReference = 662A23D72D10440A006FD7B9 /* FahimTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		662A23E02D10440A006FD7B9 /* tryTest1UITests */ = {
+		662A23E02D10440A006FD7B9 /* FahimUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 662A23F12D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "tryTest1UITests" */;
+			buildConfigurationList = 662A23F12D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "FahimUITests" */;
 			buildPhases = (
 				662A23DD2D10440A006FD7B9 /* Sources */,
 				662A23DE2D10440A006FD7B9 /* Frameworks */,
@@ -195,9 +195,9 @@
 			dependencies = (
 				662A23E32D10440A006FD7B9 /* PBXTargetDependency */,
 			);
-			name = tryTest1UITests;
+			name = FahimUITests;
 			productName = tryTest1UITests;
-			productReference = 662A23E12D10440A006FD7B9 /* tryTest1UITests.xctest */;
+			productReference = 662A23E12D10440A006FD7B9 /* FahimUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +223,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 662A23C22D104409006FD7B9 /* Build configuration list for PBXProject "tryTest1" */;
+			buildConfigurationList = 662A23C22D104409006FD7B9 /* Build configuration list for PBXProject "Fahim" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -236,9 +236,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				662A23C62D104409006FD7B9 /* tryTest1 */,
-				662A23D62D10440A006FD7B9 /* tryTest1Tests */,
-				662A23E02D10440A006FD7B9 /* tryTest1UITests */,
+				662A23C62D104409006FD7B9 /* Fahim */,
+				662A23D62D10440A006FD7B9 /* FahimTests */,
+				662A23E02D10440A006FD7B9 /* FahimUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -306,12 +306,12 @@
 /* Begin PBXTargetDependency section */
 		662A23D92D10440A006FD7B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 662A23C62D104409006FD7B9 /* tryTest1 */;
+			target = 662A23C62D104409006FD7B9 /* Fahim */;
 			targetProxy = 662A23D82D10440A006FD7B9 /* PBXContainerItemProxy */;
 		};
 		662A23E32D10440A006FD7B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 662A23C62D104409006FD7B9 /* tryTest1 */;
+			target = 662A23C62D104409006FD7B9 /* Fahim */;
 			targetProxy = 662A23E22D10440A006FD7B9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -444,10 +444,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tryTest1/Preview Content\"";
-				DEVELOPMENT_TEAM = WBAAMR6V99;
+				DEVELOPMENT_TEAM = BN2JAJ3WHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tryTest1/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "This app requires access to your media library.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera for taking photos or videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires access to the microphone for audio transcription.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library to select videos.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app requires access to speech recognition for transcribing audio from videos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -458,7 +463,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = w.tryTest1;
+				PRODUCT_BUNDLE_IDENTIFIER = w.Fahim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -474,10 +479,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tryTest1/Preview Content\"";
-				DEVELOPMENT_TEAM = WBAAMR6V99;
+				DEVELOPMENT_TEAM = BN2JAJ3WHN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tryTest1/Info.plist;
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "This app requires access to your media library.";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app requires access to the camera for taking photos or videos.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires access to the microphone for audio transcription.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app requires access to your photo library to select videos.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "This app requires access to speech recognition for transcribing audio from videos.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -488,7 +498,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = w.tryTest1;
+				PRODUCT_BUNDLE_IDENTIFIER = w.Fahim;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -512,7 +522,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tryTest1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tryTest1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fahim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fahim";
 			};
 			name = Debug;
 		};
@@ -532,7 +542,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tryTest1.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tryTest1";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fahim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Fahim";
 			};
 			name = Release;
 		};
@@ -573,7 +583,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		662A23C22D104409006FD7B9 /* Build configuration list for PBXProject "tryTest1" */ = {
+		662A23C22D104409006FD7B9 /* Build configuration list for PBXProject "Fahim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				662A23E92D10440A006FD7B9 /* Debug */,
@@ -582,7 +592,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		662A23EB2D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "tryTest1" */ = {
+		662A23EB2D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "Fahim" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				662A23EC2D10440A006FD7B9 /* Debug */,
@@ -591,7 +601,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		662A23EE2D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "tryTest1Tests" */ = {
+		662A23EE2D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "FahimTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				662A23EF2D10440A006FD7B9 /* Debug */,
@@ -600,7 +610,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		662A23F12D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "tryTest1UITests" */ = {
+		662A23F12D10440A006FD7B9 /* Build configuration list for PBXNativeTarget "FahimUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				662A23F22D10440A006FD7B9 /* Debug */,

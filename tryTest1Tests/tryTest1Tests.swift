@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import tryTest1
+@testable import Fahim
 
 final class tryTest1Tests: XCTestCase {
 
