@@ -18,6 +18,7 @@
 		663C20732D12EFBA00672597 /* كم عمرك.mov in Resources */ = {isa = PBXBuildFile; fileRef = 663C20722D12EFBA00672597 /* كم عمرك.mov */; };
 		663C20752D12EFD000672597 /* ما اسمك.mov in Resources */ = {isa = PBXBuildFile; fileRef = 663C20742D12EFD000672597 /* ما اسمك.mov */; };
 		663C20772D12EFD600672597 /* كيف العائلة.mov in Resources */ = {isa = PBXBuildFile; fileRef = 663C20762D12EFD600672597 /* كيف العائلة.mov */; };
+		B336FDDC2D1968A800CF75F1 /* SignLanguageTranslationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B336FDDB2D1968A800CF75F1 /* SignLanguageTranslationView.swift */; };
 		B391B9082D13244A0093BBEC /* أهلا.mov in Resources */ = {isa = PBXBuildFile; fileRef = B391B9072D13244A0093BBEC /* أهلا.mov */; };
 		B391B9342D144E4F0093BBEC /* Fahim.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391B9332D144E4B0093BBEC /* Fahim.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		663C20722D12EFBA00672597 /* كم عمرك.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "كم عمرك.mov"; sourceTree = "<group>"; };
 		663C20742D12EFD000672597 /* ما اسمك.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "ما اسمك.mov"; sourceTree = "<group>"; };
 		663C20762D12EFD600672597 /* كيف العائلة.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "كيف العائلة.mov"; sourceTree = "<group>"; };
+		B336FDDB2D1968A800CF75F1 /* SignLanguageTranslationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignLanguageTranslationView.swift; sourceTree = "<group>"; };
 		B391B9072D13244A0093BBEC /* أهلا.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = "أهلا.mov"; sourceTree = "<group>"; };
 		B391B9332D144E4B0093BBEC /* Fahim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fahim.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,6 +118,7 @@
 				663C20762D12EFD600672597 /* كيف العائلة.mov */,
 				662A23CA2D104409006FD7B9 /* tryTest1App.swift */,
 				662A23CC2D104409006FD7B9 /* ContentView.swift */,
+				B336FDDB2D1968A800CF75F1 /* SignLanguageTranslationView.swift */,
 				662A23CE2D10440A006FD7B9 /* Assets.xcassets */,
 				662A23D02D10440A006FD7B9 /* Preview Content */,
 			);
@@ -283,6 +286,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				662A23CD2D104409006FD7B9 /* ContentView.swift in Sources */,
+				B336FDDC2D1968A800CF75F1 /* SignLanguageTranslationView.swift in Sources */,
 				B391B9342D144E4F0093BBEC /* Fahim.swift in Sources */,
 				662A23CB2D104409006FD7B9 /* tryTest1App.swift in Sources */,
 			);
@@ -448,7 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tryTest1/Preview Content\"";
-				DEVELOPMENT_TEAM = 8YM7ZLSN5G;
+				DEVELOPMENT_TEAM = WBAAMR6V99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tryTest1/Info.plist;
@@ -483,7 +487,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tryTest1/Preview Content\"";
-				DEVELOPMENT_TEAM = 8YM7ZLSN5G;
+				DEVELOPMENT_TEAM = WBAAMR6V99;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tryTest1/Info.plist;
