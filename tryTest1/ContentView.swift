@@ -160,7 +160,7 @@ struct ContentView: View {
                             .foregroundColor(.black)
                             .padding(.leading, 45)
                         Spacer()
-                        Image(systemName: "square.and.arrow.up")
+                        Image(systemName: "photo.on.rectangle")
                             .font(.title)
                             .foregroundColor(.white)
                             .padding(.trailing, 20)
@@ -175,18 +175,26 @@ struct ContentView: View {
 
                 Spacer()
 
-                VStack(spacing: 10) {
-                    HStack(spacing: 4) {
-                        Text("لإضافة ملف صوتي")
+                VStack(spacing: 0) {
+                    Spacer()
+                        .frame(height: 200) // تحديد ارتفاع مخصص للمسافة المرنة قبل المحتوى
+                    VStack(spacing: 10) {
+                        Text ("لا يوجد ملفات صوتيه مترجمة إلى لغة الأشارة بعد!")
                             .foregroundColor(.gray)
-                        Image(systemName: "square.and.arrow.up")
-                            .font(.body)
-                            .foregroundColor(.gray)
-                        Text("اضغط على")
-                            .foregroundColor(.gray)
+                        HStack(spacing: 4) {
+                            Text("لإضافة ملف صوتي")
+                                .foregroundColor(.gray)
+                            Image(systemName: "photo.on.rectangle")
+                                .font(.body)
+                                .foregroundColor(.gray)
+                            Text("اضغط على")
+                                .foregroundColor(.gray)
+                        }
                     }
+                    .padding()
+                    Spacer()
                 }
-                .padding()
+
 
                 // NavigationLink مع تمرير النص فقط
                 NavigationLink(
