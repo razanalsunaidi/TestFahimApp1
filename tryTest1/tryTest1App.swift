@@ -12,7 +12,7 @@ import SwiftData
 struct tryTest1App: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
                 .preferredColorScheme(.light)
         }
         .modelContainer(for: Fahem.self)
