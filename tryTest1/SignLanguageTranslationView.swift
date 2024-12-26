@@ -1,16 +1,20 @@
 import SwiftUI
 import AVKit
+
 struct VideoItem: Identifiable {
     let id = UUID()
     let name: String
 }
+
 struct SignLanguageTranslationView: View {
     @State private var text: String
-    @State private var isPanelExpanded: Bool = false
-    @State private var isPanelExpanded1: Bool = false
+    @State private var isTextPanelExpanded: Bool = false
+    @State private var isVideoPanelExpanded: Bool = false
+
     init(text: String) {
         self._text = State(initialValue: text)
     }
+
     var body: some View {
         VStack {
             // شريط علوي
@@ -24,40 +28,11 @@ struct SignLanguageTranslationView: View {
             }
             .padding()
             .background(Color(hex: "C1B6A3"))
+
             Spacer()
-            // عرض النص المحول
+
+            // عرض لغة الإشارة في الأعلى
             VStack {
-                HStack {
-                    Text("النص")
-                        .font(.title3)
-                        .padding(.leading)
-                    Spacer()
-                    Button(action: {
-                        withAnimation {
-                            isPanelExpanded1.toggle()
-                        }
-                    }) {
-                        Image(systemName: "eye")
-                            .font(.title2)
-                            .foregroundColor(.black)
-                            .padding(.trailing)
-                    }
-                    .padding(.vertical, 10)
-                }
-                Text(text)
-                    .font(.title3)
-                    .padding()
-                    .frame(maxWidth: .infinity)
-                    .frame(height: 315)
-                    .padding()
-            }
-            .background(Color(hex: "C1B6A3"))
-            .cornerRadius(20)
-            .offset(y: isPanelExpanded1 ? 0 : +300)
-            Spacer()
-            // عرض الفيديو المطابق للنص
-            VStack {
-                Spacer()
                 VStack {
                     HStack {
                         Text("لغة إشارة")
@@ -66,7 +41,7 @@ struct SignLanguageTranslationView: View {
                         Spacer()
                         Button(action: {
                             withAnimation {
-                                isPanelExpanded.toggle()
+                                isVideoPanelExpanded.toggle()
                             }
                         }) {
                             Image(systemName: "eye")
@@ -77,7 +52,8 @@ struct SignLanguageTranslationView: View {
                     }
                     .padding(.vertical, 10)
                     .background(Color(hex: "EFEADA"))
-                    // الحصول على الفيديو المطابق وعرضه
+
+                    // عرض الفيديو المطابق للنص
                     if let videoToShow = getVideoForText(text) {
                         VideoPlayerView(videoName: videoToShow.name)
                             .frame(height: 300)
@@ -90,10 +66,49 @@ struct SignLanguageTranslationView: View {
                 }
                 .background(Color(hex: "EFEADA"))
                 .cornerRadius(20)
+                .offset(y: isVideoPanelExpanded ? 0 : +300) // تحريك لغة الإشارة
+                .animation(.easeInOut, value: isVideoPanelExpanded)
             }
+
+            Spacer()
+
+            // عرض النص المحول في الأسفل
+            VStack {
+                HStack {
+                    Text("النص")
+                        .font(.title3)
+                        .padding(.leading)
+                    Spacer()
+                    Button(action: {
+                        withAnimation {
+                            isTextPanelExpanded.toggle()
+                        }
+                    }) {
+                        Image(systemName: "eye")
+                            .font(.title2)
+                            .foregroundColor(.black)
+                            .padding(.trailing)
+                    }
+                    .padding(.vertical, 10)
+                }
+
+                Text(text)
+                    .font(.title3)
+                    .padding()
+                    .frame(maxWidth: .infinity, maxHeight: 315, alignment: .topTrailing) // محاذاة النص إلى الأعلى واليمين
+                    .multilineTextAlignment(.trailing) // محاذاة النص في كل الأسطر إلى اليمين
+                    .padding()
+            }
+            .background(Color(hex: "C1B6A3"))
+            .cornerRadius(20)
+            .offset(y: isTextPanelExpanded ? -30 : +270) // تحريك النص إلى الأعلى قليلاً
+            .animation(.easeInOut, value: isTextPanelExpanded)
+
+            Spacer()
         }
         .edgesIgnoringSafeArea(.bottom)
     }
+
     private func getVideoForText(_ text: String) -> VideoItem? {
         let normalizedText = text.trimmingCharacters(in: .whitespacesAndNewlines)
             .folding(options: .diacriticInsensitive, locale: .current)
@@ -120,6 +135,7 @@ struct SignLanguageTranslationView: View {
         }
     }
 }
+
 struct VideoPlayerView: View {
     let videoName: String
     var body: some View {
@@ -135,10 +151,11 @@ struct VideoPlayerView: View {
         }
     }
 }
+
 struct SignLanguageTranslationView_Previews: PreviewProvider {
     static var previews: some View {
         SignLanguageTranslationView(
-            text: "أهلا" // أدخل نصًا لاختبار عرض الفيديو
+            text: "كريم" // أدخل نصًا لاختبار عرض الفيديو
         )
     }
 }
