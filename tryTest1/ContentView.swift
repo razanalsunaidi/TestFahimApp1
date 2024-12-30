@@ -144,6 +144,7 @@ struct PhotoPicker: UIViewControllerRepresentable {
 struct ContentView: View {
     @State private var searchText: String = ""
     @StateObject private var mediaPicker = MediaPicker()
+    @StateObject private var historyManager = HistoryManager()
     @State private var transcribedText: String = ""
     @State private var isNavigationActive = false
 
@@ -173,32 +174,39 @@ struct ContentView: View {
                 .frame(height: 150)
                 .ignoresSafeArea()
 
-                Spacer()
+                ScrollView {
+                    ForEach(historyManager.savedItems) { item in
+                        // Rectangle button for each saved page
+                        Button(action: {
+                            transcribedText = item.text
+                            isNavigationActive = true
+                        }) {
+                            HStack {
+                                // Left-aligned arrow
+                                Image(systemName: "chevron.left")
+                                    .foregroundColor(.gray)
+                                    .padding(.leading, 15)
 
-                VStack(spacing: 0) {
-                    Spacer()
-                        .frame(height: 200) // تحديد ارتفاع مخصص للمسافة المرنة قبل المحتوى
-                    VStack(spacing: 10) {
-                        Text ("لا يوجد ملفات صوتيه مترجمة إلى لغة الأشارة بعد!")
-                            .foregroundColor(.gray)
-                        HStack(spacing: 4) {
-                            Text("لإضافة ملف صوتي")
-                                .foregroundColor(.gray)
-                            Image(systemName: "photo.on.rectangle")
-                                .font(.body)
-                                .foregroundColor(.gray)
-                            Text("اضغط على")
-                                .foregroundColor(.gray)
+                                Spacer()
+
+                                // Right-aligned text
+                                Text(item.text)
+                                    .font(.headline)
+                                    .foregroundColor(.black)
+                                    .padding(.trailing, 15)
+                            }
+                            .frame(height: 60) // Height for the button
+                            .background(Color(hex: "EFEADA")) // Background color
+                            .cornerRadius(10) // Rounded corners
+                            .shadow(radius: 3) // Subtle shadow
+                            .padding(.horizontal, 20) // Spacing around each button
                         }
                     }
-                    .padding()
-                    Spacer()
                 }
 
-
-                // NavigationLink مع تمرير النص فقط
                 NavigationLink(
-                    destination: SignLanguageTranslationView(text: transcribedText),
+                    destination: SignLanguageTranslationView(text: transcribedText)
+                        .environmentObject(historyManager),
                     isActive: $isNavigationActive
                 ) {
                     EmptyView()
@@ -215,8 +223,11 @@ struct ContentView: View {
                 mediaPicker.requestSpeechRecognitionPermission()
             }
         }
+        .environmentObject(historyManager)
     }
 }
+
+
 
 #Preview {
     ContentView()
