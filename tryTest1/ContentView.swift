@@ -3,6 +3,7 @@ import AVKit
 import Photos
 import PhotosUI
 import Speech
+import SwiftData
 
 struct AppColors {
     static let customColor = Color(hex: "#C1B6A3")
@@ -147,6 +148,7 @@ struct ContentView: View {
     @StateObject private var historyManager = HistoryManager()
     @State private var transcribedText: String = ""
     @State private var isNavigationActive = false
+    @Environment(\.modelContext) private var context
 
     var body: some View {
         NavigationStack {

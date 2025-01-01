@@ -1,5 +1,6 @@
 import SwiftUI
 import WebKit
+import SwiftData
 
 struct GifItem: Identifiable {
     let id = UUID()
@@ -12,6 +13,7 @@ struct SignLanguageTranslationView: View {
     @State private var isGifPanelExpanded: Bool = false
     @Environment(\.dismiss) private var dismiss
     @EnvironmentObject var historyManager: HistoryManager
+    @Environment(\.modelContext) private var context
 
     init(text: String) {
         self._text = State(initialValue: text)
@@ -119,7 +121,7 @@ struct SignLanguageTranslationView: View {
         case "رافقتك السلامة":
             return GifItem(name: "رافقتك السلامة")
         case "هل أنت بخير":
-            return GifItem(name: "هل أنت بخير")
+            return GifItem(name: "2هل أنت بخير")
         case "لحظة من فضلك":
             return GifItem(name: "لحظة من فضلك")
         case "لست احتمل هذا":
