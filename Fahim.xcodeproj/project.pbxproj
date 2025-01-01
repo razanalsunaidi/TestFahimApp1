@@ -20,12 +20,13 @@
 		B34EA4272D22D5DC00C7BB32 /* SignLang22.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34EA4262D22D5D400C7BB32 /* SignLang22.swift */; };
 		B34EA4292D22D64700C7BB32 /* contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = B34EA4282D22D64300C7BB32 /* contact.swift */; };
 		B391B9342D144E4F0093BBEC /* Fahim.swift in Sources */ = {isa = PBXBuildFile; fileRef = B391B9332D144E4B0093BBEC /* Fahim.swift */; };
+		B43844DE2D258B2700830029 /* ‎⁨هل انت بخير ⁩.gif in Resources */ = {isa = PBXBuildFile; fileRef = B43844DD2D258B2700830029 /* ‎⁨هل انت بخير ⁩.gif */; };
+		B43844E02D258B3800830029 /* ‎⁨لحظة من فضلك⁩.gif in Resources */ = {isa = PBXBuildFile; fileRef = B43844DF2D258B3800830029 /* ‎⁨لحظة من فضلك⁩.gif */; };
+		B43844E22D258B6000830029 /* لست احتمل هذا .gif in Resources */ = {isa = PBXBuildFile; fileRef = B43844E12D258B6000830029 /* لست احتمل هذا .gif */; };
 		B47B372B2D21F825008051C4 /* SignLang2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47B372A2D21F825008051C4 /* SignLang2.swift */; };
-		B47B372F2D220D86008051C4 /* هل انت بخير ٢.gif in Resources */ = {isa = PBXBuildFile; fileRef = B47B372E2D220D86008051C4 /* هل انت بخير ٢.gif */; };
 		B4C89F092D22DF910096C2E3 /* كريم.gif in Resources */ = {isa = PBXBuildFile; fileRef = B4C89F082D22DF910096C2E3 /* كريم.gif */; };
 		B4C89F0B2D22DFB80096C2E3 /* لست احتمل هذا .gif in Resources */ = {isa = PBXBuildFile; fileRef = B4C89F0A2D22DFB80096C2E3 /* لست احتمل هذا .gif */; };
 		B4C89F0D2D22DFC30096C2E3 /* أعلى.gif in Resources */ = {isa = PBXBuildFile; fileRef = B4C89F0C2D22DFC30096C2E3 /* أعلى.gif */; };
-		B4C89F0F2D22DFD00096C2E3 /* لحظه من فضلك.gif in Resources */ = {isa = PBXBuildFile; fileRef = B4C89F0E2D22DFD00096C2E3 /* لحظه من فضلك.gif */; };
 		B4C89F112D22DFEC0096C2E3 /* رافقتك السلامة.gif in Resources */ = {isa = PBXBuildFile; fileRef = B4C89F102D22DFEC0096C2E3 /* رافقتك السلامة.gif */; };
 		B4C89F132D22E0030096C2E3 /* أسفل.gif in Resources */ = {isa = PBXBuildFile; fileRef = B4C89F122D22E0030096C2E3 /* أسفل.gif */; };
 		B4E86B822D1C1FE000B8674D /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4E86B812D1C1FE000B8674D /* SplashView.swift */; };
@@ -68,12 +69,13 @@
 		B34EA4262D22D5D400C7BB32 /* SignLang22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignLang22.swift; sourceTree = "<group>"; };
 		B34EA4282D22D64300C7BB32 /* contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact.swift; sourceTree = "<group>"; };
 		B391B9332D144E4B0093BBEC /* Fahim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fahim.swift; sourceTree = "<group>"; };
+		B43844DD2D258B2700830029 /* ‎⁨هل انت بخير ⁩.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "‎⁨هل انت بخير ⁩.gif"; sourceTree = "<group>"; };
+		B43844DF2D258B3800830029 /* ‎⁨لحظة من فضلك⁩.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "‎⁨لحظة من فضلك⁩.gif"; sourceTree = "<group>"; };
+		B43844E12D258B6000830029 /* لست احتمل هذا .gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "لست احتمل هذا .gif"; sourceTree = "<group>"; };
 		B47B372A2D21F825008051C4 /* SignLang2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignLang2.swift; sourceTree = "<group>"; };
-		B47B372E2D220D86008051C4 /* هل انت بخير ٢.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "هل انت بخير ٢.gif"; sourceTree = "<group>"; };
 		B4C89F082D22DF910096C2E3 /* كريم.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "كريم.gif"; sourceTree = "<group>"; };
 		B4C89F0A2D22DFB80096C2E3 /* لست احتمل هذا .gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "لست احتمل هذا .gif"; sourceTree = "<group>"; };
 		B4C89F0C2D22DFC30096C2E3 /* أعلى.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "أعلى.gif"; sourceTree = "<group>"; };
-		B4C89F0E2D22DFD00096C2E3 /* لحظه من فضلك.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "لحظه من فضلك.gif"; sourceTree = "<group>"; };
 		B4C89F102D22DFEC0096C2E3 /* رافقتك السلامة.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "رافقتك السلامة.gif"; sourceTree = "<group>"; };
 		B4C89F122D22E0030096C2E3 /* أسفل.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "أسفل.gif"; sourceTree = "<group>"; };
 		B4E86B812D1C1FE000B8674D /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -135,12 +137,13 @@
 				B391B9332D144E4B0093BBEC /* Fahim.swift */,
 				662A23F42D104B60006FD7B9 /* Info.plist */,
 				B4C89F102D22DFEC0096C2E3 /* رافقتك السلامة.gif */,
-				B4C89F0E2D22DFD00096C2E3 /* لحظه من فضلك.gif */,
+				B43844DF2D258B3800830029 /* ‎⁨لحظة من فضلك⁩.gif */,
 				B4C89F122D22E0030096C2E3 /* أسفل.gif */,
 				B4C89F0C2D22DFC30096C2E3 /* أعلى.gif */,
 				B4C89F0A2D22DFB80096C2E3 /* لست احتمل هذا .gif */,
+				B43844E12D258B6000830029 /* لست احتمل هذا .gif */,
 				B4C89F082D22DF910096C2E3 /* كريم.gif */,
-				B47B372E2D220D86008051C4 /* هل انت بخير ٢.gif */,
+				B43844DD2D258B2700830029 /* ‎⁨هل انت بخير ⁩.gif */,
 				B4E86B832D1C20CD00B8674D /* splash.gif */,
 				662A23CA2D104409006FD7B9 /* tryTest1App.swift */,
 				662A23CC2D104409006FD7B9 /* ContentView.swift */,
@@ -284,15 +287,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4C89F0B2D22DFB80096C2E3 /* لست احتمل هذا .gif in Resources */,
+				B43844DE2D258B2700830029 /* ‎⁨هل انت بخير ⁩.gif in Resources */,
 				662A23D22D10440A006FD7B9 /* Preview Assets.xcassets in Resources */,
 				B4C89F112D22DFEC0096C2E3 /* رافقتك السلامة.gif in Resources */,
 				B4C89F0D2D22DFC30096C2E3 /* أعلى.gif in Resources */,
+				B43844E22D258B6000830029 /* لست احتمل هذا .gif in Resources */,
 				B4E86B842D1C20CD00B8674D /* splash.gif in Resources */,
-				B47B372F2D220D86008051C4 /* هل انت بخير ٢.gif in Resources */,
-				B4C89F0F2D22DFD00096C2E3 /* لحظه من فضلك.gif in Resources */,
 				662A23CF2D10440A006FD7B9 /* Assets.xcassets in Resources */,
 				B4C89F132D22E0030096C2E3 /* أسفل.gif in Resources */,
 				B4C89F092D22DF910096C2E3 /* كريم.gif in Resources */,
+				B43844E02D258B3800830029 /* ‎⁨لحظة من فضلك⁩.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,7 +494,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tryTest1/Preview Content\"";
-				DEVELOPMENT_TEAM = WBAAMR6V99;
+				DEVELOPMENT_TEAM = 67K4PB27Z3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tryTest1/Info.plist;
@@ -525,7 +529,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"tryTest1/Preview Content\"";
-				DEVELOPMENT_TEAM = WBAAMR6V99;
+				DEVELOPMENT_TEAM = 67K4PB27Z3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = tryTest1/Info.plist;

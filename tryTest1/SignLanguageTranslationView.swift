@@ -61,12 +61,14 @@ struct SignLanguageTranslationView: View {
                         GifImageView(gifName: gifToShow.name)
                             .frame(height: 300)
                             .padding()
+                            .offset(y: 115) // تحريك الجيف للأسفل فقط
                     } else {
                         Text("لا يوجد GIF مطابق للنص.")
                             .foregroundColor(.red)
                             .padding()
                     }
                 }
+
 
                 ZStack {
                     Rectangle()

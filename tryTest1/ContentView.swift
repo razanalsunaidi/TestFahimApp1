@@ -160,6 +160,7 @@ struct ContentView: View {
                         Spacer()
                         Text("فَهِيم")
                             .font(.largeTitle)
+                            .bold()
                             .foregroundColor(.black)
                             .padding(.leading, 45)
                         Spacer()
